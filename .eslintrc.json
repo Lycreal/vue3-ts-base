@@ -30,6 +30,17 @@
         "@typescript-eslint/quotes": ["error", "single"],
         "@typescript-eslint/semi": ["error", "never"],
         "@typescript-eslint/comma-dangle": ["error", "never"],
-        "import/no-extraneous-dependencies": ["error", {"devDependencies": ["vite.config.ts"]}]
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": ["vite.config.ts"]}],
+        "vue/max-attributes-per-line": "off",
+        "vue/singleline-html-element-content-newline": "off",
+        "vue/html-self-closing": ["warn", {
+            "html": {
+              "void": "always",
+              "normal": "always",
+              "component": "always"
+            },
+            "svg": "always",
+            "math": "always"
+          }]
     }
 }
