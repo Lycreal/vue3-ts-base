@@ -12,6 +12,7 @@ specifiers:
   typescript: ^4.6.4
   vite: ^3.0.7
   vue: ^3.2.37
+  vue-eslint-parser: ^9.0.3
   vue-tsc: ^0.39.5
 
 dependencies:
@@ -28,6 +29,7 @@ devDependencies:
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/9.3.0_eslint@8.22.0
   typescript: registry.npmmirror.com/typescript/4.7.4
   vite: registry.npmmirror.com/vite/3.0.9
+  vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser/9.0.3_eslint@8.22.0
   vue-tsc: registry.npmmirror.com/vue-tsc/0.39.5_typescript@4.7.4
 
 packages:
